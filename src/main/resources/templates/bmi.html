@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="#8a2be2">
+<h1> Kalkulator <b>BMI</b></h1>
+
+<form action = "/result">
+    <label>Podaj płeć:<br></label>
+    Kobieta
+    <input type="radio" name="sex" value="woman">
+    Mężczyzna
+    <input type="radio" name="sex" value="man"><br>
+    <label>Podaj wagę:</label>
+    <input type="text" name="weight"><br>
+    <label>Podaj wzrost:</label>
+    <input type="text" name="height"><br>
+    <input type="submit" value="Oblicz">
+</form>
+
+
+
+<br><br>
+Zakresy wartości BMI:<br><br>
+mniej niż 16 - wygłodzenie<br>
+16 - 16.99 - wychudzenie<br>
+17 - 18.49 - niedowaga<br>
+18.5 - 24.99 - wartość prawidłowa<br>
+25 - 29.99 - nadwaga<br>
+30 - 34.99 - I stopień otyłości<br>
+35 - 39.99 - II stopień otyłości<br>
+powyżej 40 - otyłość skrajna
+
+</body>
+</html>
